@@ -1,0 +1,26 @@
+body{
+    background-color: coral;
+}
+.search_box{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.show{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+#in1{
+    width: 800px;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    font-size: 15px;
+}
+#btn1{
+    height: 44px;
+    font-weight: bold;
+    background-color: darkgoldenrod;
+}
+#tag{
+    width: 200px;
+    height: 200px;
+}

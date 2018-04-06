@@ -1,0 +1,30 @@
+body{
+    background-color: steelblue;
+
+}
+
+table{
+    width:500px;
+    border: 1px solid black;
+    border-spacing:2px;
+    align-content:center;
+    text-align: center;
+    background-color: rgba(219, 174, 24, 0.699);
+}
+table,td{
+    border: 1px solid black;
+    padding:5px;
+}
+#insert{
+    width:300px;
+}
+#add{
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+#add:hover{
+    background-color: steelblue;
+    
+}
