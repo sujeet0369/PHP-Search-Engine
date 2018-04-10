@@ -31,7 +31,7 @@
             echo"<center><b>Oops! nothing found in database</b></center>";
 
         }
-            
+            while($row_result){
             $w_title=$row_result['title'];
             $w_link=$row_result['link'];
             $w_description=$row_result['description'];
@@ -42,7 +42,7 @@
           
            
             echo"<div class='show'><h2>$w_title</h2><br><a href='$w_link'target='_blank'>$w_link</a><p> $w_description</p>$name</div>";
-              
+	    }
     }
 
 
